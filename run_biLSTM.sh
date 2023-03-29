@@ -1,0 +1,15 @@
+python3 main.py \
+    --model BiLSTM \
+    --train_set train_360 \
+    --layers 3 \
+    --hidden_dim 600 \
+    --batch_size 64 \
+    --epochs 5 \
+    --save_path results_bilstm.txt \
+    --log_every 50 \
+    --learning_rate 0.001 \
+    --weight_decay 0 \
+    --gpu 0 \
+    --fraction_of_train_data 1 \
+    --optimizer adam \
+    --seed 1234
